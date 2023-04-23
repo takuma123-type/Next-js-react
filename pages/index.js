@@ -5,6 +5,8 @@ import styles from '@/styles/Home.module.css'
 import { Footer } from '@/components/Footer'
 import { CenterLogo } from '@/components/CenterLogo'
 import { MainTop } from '@/components/MainTop'
+import { Header } from '@/components/Header'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,6 +19,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Header />
       <MainTop title="Next.js Takuma Page" />
       <CenterLogo />
       <Footer />
